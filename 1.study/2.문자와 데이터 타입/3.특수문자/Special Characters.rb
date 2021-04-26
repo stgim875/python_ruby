@@ -1,0 +1,5 @@
+puts("kst's \"tutorial\"")
+puts("\\")
+puts("Hello\nworld")
+puts("\a")
+puts('Hello/nworld')

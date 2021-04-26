@@ -1,0 +1,5 @@
+print("kst's \"tutorial\"")
+print("\\")
+print("Hello\nworld")
+print("\a")
+print('Hello\nworld')
