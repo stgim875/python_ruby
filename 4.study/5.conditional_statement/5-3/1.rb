@@ -11,8 +11,8 @@
 
 
 ##########################
-# 조건문 else
 
+# 조건문 else를 사용
 input = 22
 real = 11
 if real == input
