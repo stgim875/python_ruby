@@ -1,3 +1,4 @@
+# 컨테이너와 반복문의 만남
 members = ['gst', 'kst', 'kim']
 i = 0
 # while i < members.length do
