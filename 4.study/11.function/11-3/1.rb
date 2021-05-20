@@ -1,3 +1,4 @@
+# 입력값
 def a(num)
     return 'a'*num
 end
