@@ -1,1 +1,0 @@
-# stgim-python_ruby
