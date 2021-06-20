@@ -1,3 +1,5 @@
+# 루비의 함수에서 일어나는 생략
+
 def f1()
     return 'f1'
 end
@@ -20,7 +22,7 @@ end
 puts(f5('f5'))
 puts(f5 'f5')
 puts f5 'f5'
-def f6 
+def f6
     return 'f6'
 end
 puts f6

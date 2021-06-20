@@ -1,3 +1,5 @@
+# 블록(block)이란 무엇인가?
+
 5.times() {puts '5times'}
 5.times() {|i| puts i}
 2.times() {puts '2times'}
