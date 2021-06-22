@@ -1,5 +1,5 @@
 # 모듈의 도입 - 루비
-# require ('./Gst') # 터미널 사용 할 경우 주석 해
+# require ('./Gst') # 터미널 사용 할 경우 주석 해제
 # require ('./Kst') # 터미널 사용 할 경우 주석 해제
 require_relative 'Gst'
 require_relative 'Kst'
