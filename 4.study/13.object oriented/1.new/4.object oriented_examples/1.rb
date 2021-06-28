@@ -1,3 +1,5 @@
+# 객체 프로그래밍의 사례
+
 name1 = String.new('gst')
 name2 = String.new('kst')
 puts(name1.reverse())
