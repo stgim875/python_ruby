@@ -1,4 +1,4 @@
-# 반복문이 없다면
+# 반복문이 없다면 
 puts('Hello world 0')
 puts('Hello world 9')
 puts('Hello world 18')
