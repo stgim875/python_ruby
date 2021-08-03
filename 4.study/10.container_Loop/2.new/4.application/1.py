@@ -1,3 +1,5 @@
+# 로그인 애플리케이션에 투입
+
 input_id = input("아이디를 입력해주세요.\n")
 # real_gst = "gst"
 # real_kst = "kst"
