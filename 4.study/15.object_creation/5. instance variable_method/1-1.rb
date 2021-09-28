@@ -1,4 +1,5 @@
 # 인스턴스 변수와 메소드(2021-09-28)
+# <객체 지향 코드>
 
 class Cal
     def initialize(v1, v2)
