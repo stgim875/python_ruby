@@ -26,7 +26,3 @@ c1.setV1 = ('one')
 c1.v2 = 30
 print(c1.add())
 print(c1.subtract())
-
-# c2 = Cal(30, 20)
-# print(c2.add())
-# print(c2.subtract())
