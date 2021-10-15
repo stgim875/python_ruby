@@ -1,5 +1,4 @@
-# 인스턴스 변수와 메소드(2021-09-28)
-# <객체 지향 코드>
+# 상속의 응용(2021-10-14)
 
 class Cal
     def initialize(v1, v2)
@@ -45,4 +44,3 @@ c2 = CalDivide.new(20, 10)
 p c2, c2.add()
 p c2, c2.multiplay()
 p c2, c2.divide()
-

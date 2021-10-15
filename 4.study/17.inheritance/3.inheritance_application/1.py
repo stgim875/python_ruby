@@ -1,3 +1,5 @@
+# 상속의 응용(2021-10-14)
+
 class Cal(object):
     def __init__(self, v1, v2):
         self.v1 = v1  # self가 인스턴스 변수임
