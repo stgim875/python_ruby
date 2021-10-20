@@ -2,8 +2,10 @@
 
 class Cal(object):
     def __init__(self, v1, v2):
-        self.v1 = v1  # self가 인스턴스 변수임
-        self.v2 = v2
+        if isinstance(v1, int):
+            self.v1 = v1
+        if isinstance(v2, int):
+            self.v2 = v2
 
     def add(self):
         return self.v1+self.v2
@@ -11,12 +13,7 @@ class Cal(object):
     def subtract(self):
         return self.v1-self.v2
 
-    # def Multiply(self):
-    #     return self.v1*self.v2
-
-    # method = function이다.
     def setV1(self, v):
-        # 만약 v가 숫자라면?:
         if isinstance(v, int):
             self.v1 = v
 
@@ -24,18 +21,20 @@ class Cal(object):
         return self.v1
 
 
-class CalMultiplay(Cal):
-    def multiplay(self):
+class CalMultiply(Cal):
+    def multiply(self):
         return self.v1*self.v2
 
-class CalDivide(CalMultiplay):
+
+class CalDivide(CalMultiply):
     def divide(self):
         return self.v1/self.v2
 
 
-c1 = CalMultiplay(10, 10)
+c1 = CalMultiply(10, 10)
 print(c1.add())
-print(c1.multiplay())
+print(c1.multiply())
 c2 = CalDivide(20, 10)
-print(c2, c2.multiplay())
+print(c2, c2.add())
+print(c2, c2.multiply())
 print(c2, c2.divide())
