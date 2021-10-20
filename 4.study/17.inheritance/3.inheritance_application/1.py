@@ -20,16 +20,13 @@ class Cal(object):
     def getV1(self):
         return self.v1
 
-
 class CalMultiply(Cal):
     def multiply(self):
         return self.v1*self.v2
 
-
 class CalDivide(CalMultiply):
     def divide(self):
         return self.v1/self.v2
-
 
 c1 = CalMultiply(10, 10)
 print(c1.add())
