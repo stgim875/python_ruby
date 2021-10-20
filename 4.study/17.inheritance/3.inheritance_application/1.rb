@@ -1,9 +1,9 @@
 # 상속의 응용(2021-10-14)
 
 class Cal
- attr_reader :v1, :v2
- attr_writer :v1
- def initialize(v1,v2)
+    attr_reader :v1, :v2
+    attr_writer :v1
+    def initialize(v1,v2)
     @v1 = v1
     @v2 = v2
 end
@@ -20,7 +20,7 @@ def setV1(v)
 end
 def getV1()
     return @v1
-end
+    end
 end
 class CalMultiply < Cal
 def multiply()
@@ -28,10 +28,11 @@ def multiply()
   end
 end
 class CalDivide < CalMultiply
-def divide()
-    return @v1/@v2
+    def divide()
+        return @v1/@v2
+    end
 end
-end
+
 c1 = CalMultiply.new(10,10)
 p c1.add()
 p c1.multiply()
