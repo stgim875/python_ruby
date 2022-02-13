@@ -1,8 +1,10 @@
-# 2022년 2월 7일
+# 2022년 2월 8일
 # 조건문
-# 조건문의 활용
+# else
 
 input = 11
 real = 11
 if real == input:
     print("Hello!")
+else:
+    print("Who are you?")

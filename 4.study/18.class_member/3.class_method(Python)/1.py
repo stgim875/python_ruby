@@ -12,7 +12,6 @@ class Cs:
     def instance_method(self):
         print("Instance method")
 
-
 i = Cs()
 Cs.static_method()
 Cs.class_method()
