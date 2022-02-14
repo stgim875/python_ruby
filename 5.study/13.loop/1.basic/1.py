@@ -1,3 +1,6 @@
+# 2022년 2월 14일
+# 반복문
+
 print('Hello world 0')
 print('Hello world 9')
 print('Hello world 18')
