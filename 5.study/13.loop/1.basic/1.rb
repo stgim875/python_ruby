@@ -1,3 +1,6 @@
+# 2022년 2월 14일
+# 반복문
+
 puts('Hello world 0')
 puts('Hello world 9')
 puts('Hello world 18')
