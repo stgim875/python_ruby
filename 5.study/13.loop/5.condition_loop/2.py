@@ -4,7 +4,7 @@
 i = 0
 while i < 10:
     if i ==4:
-        break
+        break  # 조건은 break를 만나게 되면 끝나게 된다.
     print(i)
     i = i + 1
 print('after while')
