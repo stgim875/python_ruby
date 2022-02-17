@@ -4,8 +4,8 @@
 
 in_str = input("아이디를 입력해 주세요.\n")
 print(type(in_str))
-real_gst = "11"
-real_kst = "22"
+real_gst = "gst"
+real_kst = "kst"
 if real_gst == in_str:
     print("Hello!, gst")
 elif real_kst == in_str:
